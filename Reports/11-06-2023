@@ -1,0 +1,13 @@
+Explored the NASA Turbofan Jet Engine Dataset further and begin playing around and experimenting by writing some preliminary basic code for preprocessing.
+
+Work done
+
+Worked on the initial preprocessing of the data, renaming columns for better code and output readability, cleaning and dropping some of the appropriate variables, and normalising parts of the dataset in preparation for further steps.
+
+Learnings
+
+While researching about some preprocessing steps, learnt something extremely valuable on variables having a standard deviation of zero which was directly applicable to the dataset in question, FD001 (taken from https://www.kaggle.com/datasets/behrad3d/nasa-cmaps.)
+
+Challenges faced
+
+I made a bad move quite early on while coding. The dataset had no column names, and due to my laziness, I didn't name them early on, instead choosing to work with column indexes which soon became quite confusing when manipulating and dropping them. Later rectified it, but took some extra time and effort which could have been saved. A lesson learnt though, to always name columns suitably!
